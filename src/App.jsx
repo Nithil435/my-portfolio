@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -39,7 +40,7 @@ function App() {
 
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/Resume_Nithil.pdf";
+    link.href = "/my-portfolio/Resume_Nithil.pdf";
     link.download = "Resume_Nithil.pdf";
     link.click();
   };
@@ -80,6 +81,29 @@ function App() {
 
   return (
     <>
+     <Helmet>
+      <title>Nithil Varma | Frontend Developer Portfolio</title>
+      <meta name="description" content="Portfolio of Nithil Varma, a React.js frontend developer specializing in web and app interfaces. Explore projects, skills, and get in touch." />
+      <meta name="keywords" content="Frontend Developer, React.js Portfolio, UI/UX Design, JavaScript Developer" />
+      <meta name="author" content="Nithil Varma" />
+      <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Nithil Varma",
+            "jobTitle": "Frontend Developer",
+            <link rel="canonical" href="https://nithil435.github.io/my-portfolio/" />
+            "sameAs": [
+              "https://www.instagram.com/varma.nithil_",
+              "https://in.linkedin.com/in/nithil-varma-16a59a341",
+              "https://github.com/Nithil435"
+            ]
+          }
+          `}
+        </script>
+     </Helmet>
+     
       {/* Header Section */}
       <div id="header">
         <nav>
@@ -89,7 +113,7 @@ function App() {
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
           </ul>
-          <img className='fa' src={menu} alt="Menu Icon" onClick={toggleMenu} />
+          <img className="fa" src={menu} alt="Menu Icon" onClick={toggleMenu} aria-label="Toggle Navigation Menu" />
         </nav>
         <div className="header-text">
           <p>Frontend Developer</p>
@@ -102,7 +126,7 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="about-col1">
-              <img src={sunny} alt="Nithil" />
+              <img src={sunny} alt="Nithil Varma" />
             </div>
             <div className="about-col2">
               <h1 className='sub-title'>About Me</h1>
@@ -152,8 +176,8 @@ function App() {
 
               <div className={`tab-contents ${activeTab === 'Education' ? 'active-tab' : ''}`} id='Education'>
                 <ul>
-                  <li><span>Intermediate</span><br />Alphoser College, 2019</li>
-                  <li><span>B.Tech in ECE</span><br />Vageaswari College, 2024</li>
+                  <li><span>Intermediate</span><br />Alphores College, 2019</li>
+                  <li><span>B.Tech in ECE</span><br />Vaageswari College, 2024</li>
                 </ul>
               </div>
             </div>
@@ -197,10 +221,10 @@ function App() {
               <p>91+ 9177937942</p>
               <div className="social-icons">
                 <a href="https://www.instagram.com/varma.nithil_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><FontAwesomeIcon icon={faInstagram} /></a>
-                <a href="" className='Link'><FontAwesomeIcon icon={faLinkedin} /></a>
-                <a href="https://github.com/Nithil24" className='Git'><FontAwesomeIcon icon={faGithub} /></a>
+                <a href="https://in.linkedin.com/in/nithil-varma-shivarathri-16a59a341" className='Link'><FontAwesomeIcon icon={faLinkedin} /></a>
+                <a href="https://github.com/Nithil435" className='Git'><FontAwesomeIcon icon={faGithub} /></a>
               </div>
-              <button onClick={handleDownloadCV} className='btn btn2'>Download CV</button>
+              <a href="/my-portfolio/Resume_Nithil.pdf" download="Resume_Nithil.pdf" className="button">Download CV</a>
             </div>
             <div className="contact-right">
               <form name='submit-to-google-sheet' onSubmit={handleSubmit}>
@@ -214,7 +238,7 @@ function App() {
           </div>
         </div>
         <div className="copyright">
-          <p>Copyright &#169; Nithil.</p>
+          <p>Powered by React | &#169; 2025 Nithil.</p>
         </div>
       </div>
     </>
