@@ -1,8 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
+const isGitHubPages = process.env.NODE_ENV === 'production' && process.env.BASE === 'github';
+
 export default defineConfig({
   plugins: [react()],
-  base:'/my-portfolio/',
-})
+  base: isGitHubPages ? '/my-portfolio/' : '/', // Adjust base path
+});
