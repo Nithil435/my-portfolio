@@ -82,27 +82,31 @@ function App() {
   return (
     <>
      <Helmet>
-      <title>Nithil Varma | Frontend Developer Portfolio</title>
-      <meta name="description" content="Portfolio of Nithil Varma, a React.js frontend developer specializing in web and app interfaces. Explore projects, skills, and get in touch." />
-      <meta name="keywords" content="Frontend Developer, React.js Portfolio, UI/UX Design, JavaScript Developer" />
-      <meta name="author" content="Nithil Varma" />
-      <script type="application/ld+json">
-          {`
-          {
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Nithil Varma",
-            "jobTitle": "Frontend Developer",
-            <link rel="canonical" href="https://nithil435.github.io/my-portfolio/" />
-            "sameAs": [
-              "https://www.instagram.com/varma.nithil_",
-              "https://in.linkedin.com/in/nithil-varma-16a59a341",
-              "https://github.com/Nithil435"
-            ]
-          }
-          `}
-        </script>
-     </Helmet>
+  <title>Nithil Varma | Frontend Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Nithil Varma, a React.js frontend developer specializing in web and app interfaces. Explore projects, skills, and get in touch." />
+  <meta name="keywords" content="Frontend Developer, React.js Portfolio, UI/UX Design, JavaScript Developer" />
+  <meta name="author" content="Nithil Varma" />
+  
+  {/* Place the canonical link outside of JSON-LD */}
+  <link rel="canonical" href="https://nithil435.github.io/my-portfolio/" />
+  
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Nithil Varma",
+      "jobTitle": "Frontend Developer",
+      "sameAs": [
+        "https://www.instagram.com/varma.nithil_",
+        "https://in.linkedin.com/in/nithil-varma-16a59a341",
+        "https://github.com/Nithil435"
+      ]
+    }
+    `}
+  </script>
+</Helmet>
+
      
       {/* Header Section */}
       <div id="header">
