@@ -81,30 +81,39 @@ function App() {
 
   return (
     <>
-  <Helmet>
+      <Helmet>
   <title>Nithil Varma | Frontend Developer Portfolio</title>
-  <meta name="description" content="Portfolio of Nithil Varma, a React.js frontend developer specializing in web and app interfaces. Explore projects, skills, and get in touch." />
-  <meta name="keywords" content="Frontend Developer, React.js Portfolio, UI/UX Design, JavaScript Developer" />
+  <meta
+    name="description"
+    content="Portfolio of Nithil Varma, a React.js frontend developer specializing in web and app interfaces. Explore projects, skills, and get in touch."
+  />
+  <meta
+    name="keywords"
+    content="Frontend Developer, React.js Portfolio, UI/UX Design, JavaScript Developer"
+  />
   <meta name="author" content="Nithil Varma" />
-  
-  {/* Canonical Link updated to Vercel */}
+
+  {/* Canonical Link */}
   <link rel="canonical" href="https://my-portfolio-chi-livid-74.vercel.app/" />
-  
-  <script type="application/ld+json">
-    {`
-    {
+
+  {/* Correct JSON-LD */}
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Nithil Varma",
       "jobTitle": "Frontend Developer",
+      "url": "https://my-portfolio-chi-livid-74.vercel.app/",
       "sameAs": [
         "https://www.instagram.com/varma.nithil_",
         "https://in.linkedin.com/in/nithil-varma-16a59a341",
         "https://github.com/Nithil435"
       ]
-    }
-    `}
-  </script>
+    })
+  }}
+></script>
 </Helmet>
 
 
