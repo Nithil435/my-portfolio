@@ -2,9 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import sitemapPlugin from 'vite-plugin-sitemap'; // Importing sitemap plugin
 
-// Check if the environment is for GitHub Pages
-const isGitHubPages = process.env.NODE_ENV === 'production' && process.env.BASE === 'github';
-
 export default defineConfig({
   plugins: [
     react(),
@@ -17,5 +14,5 @@ export default defineConfig({
       ],
     }),
   ],
-  base: isGitHubPages ? '/my-portfolio/' : '/', // Set base path for GitHub Pages or default
+  base: '/', // Base path for Vercel (no need for GitHub Pages logic)
 });
