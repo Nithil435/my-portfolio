@@ -82,6 +82,7 @@ function App() {
   return (
     <>
       <Helmet>
+      <meta name="msvalidate.01" content="5A68D3F926B85AE5C533FD35F64525F1" />
   <title>Nithil Varma | Frontend Developer Portfolio</title>
   <meta
     name="description"
