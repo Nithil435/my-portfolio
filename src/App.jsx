@@ -95,7 +95,7 @@ function App() {
   <meta name="author" content="Nithil Varma" />
 
   {/* Canonical Link */}
-  <link rel="canonical" href="https://my-portfolio-chi-livid-74.vercel.app/" />
+  <link rel="canonical" href="https://strong-gingersnap-96332e.netlify.app/" />
 
   {/* Correct JSON-LD */}
   <script
@@ -106,7 +106,7 @@ function App() {
       "@type": "Person",
       "name": "Nithil Varma",
       "jobTitle": "Frontend Developer",
-      "url": "https://my-portfolio-chi-livid-74.vercel.app/",
+      "url": "https://strong-gingersnap-96332e.netlify.app/",
       "sameAs": [
         "https://www.instagram.com/varma.nithil_",
         "https://in.linkedin.com/in/nithil-varma-16a59a341",
