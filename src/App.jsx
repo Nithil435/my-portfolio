@@ -90,7 +90,7 @@ function App() {
   />
   <meta
     name="keywords"
-    content="Frontend Developer, React.js Portfolio, UI/UX Design, JavaScript Developer"
+    content="Frontend Developer, React.js Developer, Portfolio Website, UI/UX Design, JavaScript Developer, Hyderabad Developer"
   />
   <meta name="author" content="Nithil Varma" />
 
@@ -115,6 +115,13 @@ function App() {
     })
   }}
 ></script>
+
+    {/* Open Graph Meta Tags */}
+  <meta property="og:title" content="Nithil Varma | Frontend Developer Portfolio" />
+  <meta property="og:description" content="Portfolio of Nithil Varma, a React.js frontend developer specializing in web and app interfaces. Explore projects, skills, and get in touch." />
+  <meta property="og:image" content="https://my-portfolio-chi-livid-74.vercel.app/images/sunny.jpg" />
+  <meta property="og:url" content="https://my-portfolio-chi-livid-74.vercel.app/" />
+  <meta property="og:type" content="website" />
 </Helmet>
 
 
@@ -146,7 +153,7 @@ function App() {
             </div>
             <div className="about-col2">
               <h1 className='sub-title'>About Me</h1>
-              <p>Hello! I’m Nithil, a frontend developer with a passion for UI/UX design. I enjoy creating intuitive, visually appealing experiences, and my portfolio site is a recent project showcasing my work. When I’m not coding, you’ll find me listening to music or diving into the latest in IoT and tech innovations. Let’s connect and bring ideas to life!</p>
+              <p>Hello! I’m Nithil Varma, a frontend developer with a passion for UI/UX design. I enjoy creating intuitive, visually appealing experiences, and my portfolio site is a recent project showcasing my work. When I’m not coding, you’ll find me listening to music or diving into the latest in IoT and tech innovations. Let’s connect and bring ideas to life!</p>
 
               <div className="tab-titles">
                 <p
@@ -254,7 +261,7 @@ function App() {
           </div>
         </div>
         <div className="copyright">
-          <p>Powered by React | &#169; 2025 Nithil.</p>
+          <p>Powered by React | &#169; 2025 Nithil Varma.</p>
         </div>
       </div>
     </>
