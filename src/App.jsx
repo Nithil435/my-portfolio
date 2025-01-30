@@ -261,7 +261,7 @@ function App() {
           </div>
         </div>
         <div className="copyright">
-          <p>Powered by React | &#169; 2025 Nithil Varma.</p>
+          <p>Powered by React | &#169; 2025 Nithil Varma</p>
         </div>
       </div>
     </>
