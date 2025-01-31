@@ -119,8 +119,8 @@ function App() {
     {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Nithil Varma | Frontend Developer Portfolio" />
   <meta property="og:description" content="Portfolio of Nithil Varma, a React.js frontend developer specializing in web and app interfaces. Explore projects, skills, and get in touch." />
-  <meta property="og:image" content="https://my-portfolio-chi-livid-74.vercel.app/images/sunny.jpg" />
-  <meta property="og:url" content="https://my-portfolio-chi-livid-74.vercel.app/" />
+  <meta property="og:image" content="https://strong-gingersnap-96332e.netlify.app/images/sunny.jpg" />
+  <meta property="og:url" content="https://strong-gingersnap-96332e.netlify.app/" />
   <meta property="og:type" content="website" />
 </Helmet>
 
