@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://my-portfolio-chi-livid-74.vercel.app/sitemap.xml
+Sitemap: https://strong-gingersnap-96332e.netlify.app/sitemap.xml
