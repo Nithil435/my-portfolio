@@ -95,7 +95,7 @@ function App() {
   <meta name="author" content="Nithil Varma" />
 
   {/* Canonical Link */}
-  <link rel="canonical" href="https://strong-gingersnap-96332e.netlify.app/" />
+  <link rel="canonical" href="https://strong-gingersnap-96332e.netlify.app/"/>
 
   {/* Correct JSON-LD */}
   <script
