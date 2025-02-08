@@ -82,7 +82,7 @@ function App() {
   return (
     <>
       <Helmet>
-      <meta name="msvalidate.01" content="5A68D3F926B85AE5C533FD35F64525F1" />
+      <meta name="msvalidate.01" content="5A68D3F926B85AE5C533FD35F64525F1"/>
   <title>Nithil Varma | Frontend Developer Portfolio</title>
   <meta
     name="description"
@@ -90,12 +90,11 @@ function App() {
   />
   <meta
     name="keywords"
-    content="Frontend Developer, React.js Developer, Portfolio Website, UI/UX Design, JavaScript Developer, Hyderabad Developer"
-  />
-  <meta name="author" content="Nithil Varma" />
+    content="Frontend Developer, React.js Developer, Portfolio Website, UI/UX Design, JavaScript Developer, Hyderabad Developer"/>
+  <meta name="author" content="Nithil Varma"/>
 
   {/* Canonical Link */}
-  <link rel="canonical" href="https://strong-gingersnap-96332e.netlify.app/"/>
+  <link rel="canonical" href="https://strong-gingersnap-96332e.netlify.app"/>
 
   {/* Correct JSON-LD */}
   <script
@@ -106,7 +105,7 @@ function App() {
       "@type": "Person",
       "name": "Nithil Varma",
       "jobTitle": "Frontend Developer",
-      "url": "https://strong-gingersnap-96332e.netlify.app/",
+      "url": "https://strong-gingersnap-96332e.netlify.app",
       "sameAs": [
         "https://www.instagram.com/varma.nithil_",
         "https://in.linkedin.com/in/nithil-varma-16a59a341",
@@ -117,10 +116,10 @@ function App() {
 ></script>
 
     {/* Open Graph Meta Tags */}
-  <meta property="og:title" content="Nithil Varma | Frontend Developer Portfolio" />
-  <meta property="og:description" content="Portfolio of Nithil Varma, a React.js frontend developer specializing in web and app interfaces. Explore projects, skills, and get in touch." />
-  <meta property="og:image" content="https://strong-gingersnap-96332e.netlify.app/images/sunny.jpg" />
-  <meta property="og:url" content="https://strong-gingersnap-96332e.netlify.app/" />
+  <meta property="og:title" content="Nithil Varma | Frontend Developer Portfolio"/>
+  <meta property="og:description" content="Portfolio of Nithil Varma, a React.js frontend developer specializing in web and app interfaces. Explore projects, skills, and get in touch."/>
+  <meta property="og:image" content="https://strong-gingersnap-96332e.netlify.app/images/sunny.jpg"/>
+  <meta property="og:url" content="https://strong-gingersnap-96332e.netlify.app"/>
   <meta property="og:type" content="website" />
 </Helmet>
 
@@ -136,7 +135,7 @@ function App() {
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
           </ul>
-          <img className="fa" src={menu} alt="Menu Icon" onClick={toggleMenu} aria-label="Toggle Navigation Menu" />
+          <img className="fa" src={menu} alt="Menu Icon" onClick={toggleMenu} aria-label="Toggle Navigation Menu"/>
         </nav>
         <div className="header-text">
           <p>Frontend Developer</p>
@@ -149,7 +148,7 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="about-col1">
-              <img src={sunny} alt="Nithil Varma" />
+              <img src={sunny} alt="Nithil Varma"/>
             </div>
             <div className="about-col2">
               <h1 className='sub-title'>About Me</h1>
