@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     react(),
     sitemapPlugin({
-      hostname: 'https://my-portfolio-chi-livid-74.vercel.app', // Replace with your actual hostname
+      hostname: 'https://strong-gingersnap-96332e.netlify.app/', // Replace with your actual hostname 
       routes: [
         '/',        // Home route
         '/about',   // Example route
