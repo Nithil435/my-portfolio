@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -38,12 +38,12 @@ function App() {
     }
   };
 
-  const handleDownloadCV = () => {
+  /*const handleDownloadCV = () => {
     const link = document.createElement("a");
     link.href = "/my-portfolio/Resume_Nithil.pdf";
     link.download = "Resume_Nithil.pdf";
     link.click();
-  };
+  };*/
 
   const handleChange = (e) => {
     setFormData({
@@ -139,7 +139,7 @@ function App() {
         </nav>
         <div className="header-text">
           <p>Frontend Developer</p>
-          <h1>Hi, I'm <span>Nithil varma</span> <br /> Shivarathri </h1>
+          <h1>Hi, I&apos;m <span>Nithil varma</span> <br /> Shivarathri </h1>
         </div>
       </div>
 
@@ -246,7 +246,7 @@ function App() {
                 <a href="https://in.linkedin.com/in/nithil-varma-shivarathri-16a59a341" className='Link'><FontAwesomeIcon icon={faLinkedin} /></a>
                 <a href="https://github.com/Nithil435" className='Git'><FontAwesomeIcon icon={faGithub} /></a>
               </div>
-              <a href="/my-portfolio/Resume_Nithil.pdf" download="Resume_Nithil.pdf" className="button">Download CV</a>
+              <a href="/my-portfolio/nithilvarma.shivarathri.pdf" download="nithilvarma.shivarathri.pdf" className="button">Download CV</a>
             </div>
             <div className="contact-right">
               <form name='submit-to-google-sheet' onSubmit={handleSubmit}>
