@@ -40,8 +40,8 @@ function App() {
 
   /*const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/my-portfolio/Resume_Nithil.pdf";
-    link.download = "Resume_Nithil.pdf";
+    link.href = "/my app/public/nithilvarma.shivarathri.pdf";
+    link.download = "nithilvarma.shivarathri.pdf";
     link.click();
   };*/
 
@@ -246,7 +246,7 @@ function App() {
                 <a href="https://in.linkedin.com/in/nithil-varma-shivarathri-16a59a341" className='Link'><FontAwesomeIcon icon={faLinkedin} /></a>
                 <a href="https://github.com/Nithil435" className='Git'><FontAwesomeIcon icon={faGithub} /></a>
               </div>
-              <a href="/my-portfolio/nithilvarma.shivarathri.pdf" download="nithilvarma.shivarathri.pdf" className="button">Download CV</a>
+              <a href="/my app/public/nithilvarma.shivarathri.pdf" download="nithilvarma.shivarathri.pdf" className="button">Download CV</a>
             </div>
             <div className="contact-right">
               <form name='submit-to-google-sheet' onSubmit={handleSubmit}>
